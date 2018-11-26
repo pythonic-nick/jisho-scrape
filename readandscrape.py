@@ -1,9 +1,8 @@
 import urllib
 import json
 import unicodedata
-import re
 
-with open('kanji22001.txt') as f:
+with open('read-this.txt') as f:
     content = f.readlines()
 
 kanji_list = []
